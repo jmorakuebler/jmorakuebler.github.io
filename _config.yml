@@ -30,10 +30,6 @@ reCaptcha:
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 
-# Social Sharing
-twitter:
-  username               : jordanm011
-
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
