@@ -1,0 +1,70 @@
+.sublist p{
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.flow-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flow-div p {
+  background-color: #235E70;
+  color: #fff;
+  padding: 5px;
+  margin: 0 5px 0 5px;
+  border-radius: 10px;
+}
+
+.flow-div div {
+  max-width: 3.0em;
+  margin: 10px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 56%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tech-icon {
+  font-size: 64px;
+}
+
+.img-icon {
+  height: 64px;
+  widows: 64px;
+}
